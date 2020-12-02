@@ -1,11 +1,14 @@
 
 table{
     text-align: center;
+	left: 500px;
+	right: 500px;
+	position: absolute;
 }
 
 button{
     width: 100%;
-	background-color: #4CAF50; /* Green */
+	background-color: #1DD837; /* Green */
 	border: none;
 	color: white;
 	padding: 16px 32px;
@@ -18,10 +21,11 @@ button{
 	cursor: pointer;
 	background-color: white; 
 	color: black; 
-	border: 2px solid #4CAF50;
+	border: 2px solid #002BFF;
+	font-family: Brush Script MT;
 }
 
 button:hover {
-	background-color: #4CAF50;
+	background-color: #63DEFC;
 	color: white;
 }
