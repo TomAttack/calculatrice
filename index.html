@@ -16,17 +16,24 @@
         let b = eval(a) 
         document.getElementById("entrée").value = b 
              }
-            
+		function intro()
+				{ 
+        alert("Ma première calculatrice en HTML et en javascript");
+				} 
+		function evenement_clavier() 
+		{
+			alert("Appuie plutot sur les touches de la calculatrice en ligne ;)");
+        }    
 
 
 
         </script>
     </head> 
-    <body> 
+    <body onload=intro()> 
         <div>
             <table border="1"> 
               <tr> 
-                <td colspan="3"><input id="entrée"></td> 
+                <td colspan="3"><input onkeyup="evenement_clavier()" onfocus="couleur(this)" id="entrée"></td> 
                 <td><button onclick="effacer()">c</button></td> 
               </tr>
 <tr> 
