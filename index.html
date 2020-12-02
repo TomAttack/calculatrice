@@ -24,8 +24,13 @@
 		{
 			alert("Appuie plutot sur les touches de la calculatrice en ligne ;)");
         }    
-
-
+		function couleur(x) {
+			x.style.background = "skyblue"
+			}
+		  function couleur_bouton5(x) 
+        {
+          x.style.background = "#B8D7F5";
+        }
 
         </script>
     </head> 
@@ -44,14 +49,14 @@
               </tr>
               <tr>
                 <td><button onclick="afficher('4')">4</button></td> 
-                <td><button onclick="afficher('5')">5</button></td> 
+                <td><button onclick="afficher('5')"onmouseenter="couleur_bouton5(this)">5</button></td> 
                 <td><button onclick="afficher('6')">6</button></td> 
                 <td><button onclick="afficher('-')">-</button></td>
               </tr>
               <tr>
-                <td><button onclick="afficher('4')">7</button></td> 
-                <td><button onclick="afficher('5')">8</button></td> 
-                <td><button onclick="afficher('6')">9</button></td> 
+                <td><button onclick="afficher('7')">7</button></td> 
+                <td><button onclick="afficher('8')" >8</button></td> 
+                <td><button onclick="afficher('9')">9</button></td> 
                 <td><button onclick="afficher('')"></button></td>
               </tr>
               <tr>
